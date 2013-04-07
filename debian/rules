@@ -1,3 +1,10 @@
 #!/usr/bin/make -f
+
+DESTDIR=$(CURDIR)/debian/php-horde-css-parser
+
 %:
 	dh $@ --buildsystem=phppear --with phppear
+override_dh_auto_install:
+	dh_auto_install -O--buildsystem=phppear
+	# Remove extra license file
+	rm -f $(DESTDIR)/usr/share/doc/php-horde-css-parser/EXPAT_LICENSE
