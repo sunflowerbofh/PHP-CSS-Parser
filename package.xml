@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Horde_Css_Parser</name>
+ <channel>pear.horde.org</channel>
+ <summary>Horde CSS Parser</summary>
+ <description>This package provides access to the Sabberworm CSS Parser from within the Horde framework.</description>
+ <lead>
+  <name>Michael Slusarz</name>
+  <user>slusarz</user>
+  <email>slusarz@horde.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-04-07</date>
+ <time>17:54:25</time>
+ <version>
+  <release>1.0.0dev201304071754</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+ <notes>
+* First release for Horde 5.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="448263295cf592643828bb7121113a01" name="doc/Horde/Css/Parser/COPYING" role="doc" />
+   <file baseinstalldir="/" md5sum="9cd31744486effc8639245b3b83f283a" name="doc/Horde/Css/Parser/EXPAT_LICENSE" role="doc" />
+   <file baseinstalldir="/" md5sum="6cbc91dd4d4a5f8475356e1332781bb4" name="lib/Horde/Css/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="c31ea80347a3ebd5a20df983c9663a82" name="lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" role="php" />
+   <file baseinstalldir="/" md5sum="0f1c60a15ab7791fc41e9138bbf792d5" name="lib/Sabberworm/CSS/CSSList/CSSBlockList.php" role="php" />
+   <file baseinstalldir="/" md5sum="2ca9bfc8cfad3e468c29c8c27d4f08b0" name="lib/Sabberworm/CSS/CSSList/CSSList.php" role="php" />
+   <file baseinstalldir="/" md5sum="e1e16a8bb47ea0b0724f023d43bab50d" name="lib/Sabberworm/CSS/CSSList/Document.php" role="php" />
+   <file baseinstalldir="/" md5sum="1197b78d87fecb5ea00dd5046f9aef34" name="lib/Sabberworm/CSS/CSSList/KeyFrame.php" role="php" />
+   <file baseinstalldir="/" md5sum="5e324e736849598a275c15bb7ccaeadb" name="lib/Sabberworm/CSS/CSSList/MediaQuery.php" role="php" />
+   <file baseinstalldir="/" md5sum="df29729f76bd2e7f75e218f748781a2d" name="lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b78fdec2f3bc028b14e420fda39c8f2" name="lib/Sabberworm/CSS/Property/AtRule.php" role="php" />
+   <file baseinstalldir="/" md5sum="fa19e2aee31e5e021116ff06a0912af6" name="lib/Sabberworm/CSS/Property/Charset.php" role="php" />
+   <file baseinstalldir="/" md5sum="680a9631f9c6b9eb3b8dcc54e236fc16" name="lib/Sabberworm/CSS/Property/CSSNamespace.php" role="php" />
+   <file baseinstalldir="/" md5sum="40260ce57e1027013aacad83ac699346" name="lib/Sabberworm/CSS/Property/Import.php" role="php" />
+   <file baseinstalldir="/" md5sum="6cab8acc0171a74f6e1b87757ee4a374" name="lib/Sabberworm/CSS/Property/Selector.php" role="php" />
+   <file baseinstalldir="/" md5sum="0098a986a57ea1b1abbdf609906929a6" name="lib/Sabberworm/CSS/Rule/Rule.php" role="php" />
+   <file baseinstalldir="/" md5sum="0a2c775e9376ffe5339f6db1d082c668" name="lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" role="php" />
+   <file baseinstalldir="/" md5sum="b766d0290c800f54c8f7bff6a3394ed4" name="lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" role="php" />
+   <file baseinstalldir="/" md5sum="f7d35595b1714472db199919970a0959" name="lib/Sabberworm/CSS/RuleSet/RuleSet.php" role="php" />
+   <file baseinstalldir="/" md5sum="0eda530b69d1783e44225053edd5a2e8" name="lib/Sabberworm/CSS/Value/Color.php" role="php" />
+   <file baseinstalldir="/" md5sum="b54074857c15e36f59340ef142b8d601" name="lib/Sabberworm/CSS/Value/CSSFunction.php" role="php" />
+   <file baseinstalldir="/" md5sum="260203672eb68d976e22ec50d5dfa388" name="lib/Sabberworm/CSS/Value/PrimitiveValue.php" role="php" />
+   <file baseinstalldir="/" md5sum="f83c603cb1cac8c970ab43b46efc1a33" name="lib/Sabberworm/CSS/Value/RuleValueList.php" role="php" />
+   <file baseinstalldir="/" md5sum="d59a99595a29e25422868a46876b7e33" name="lib/Sabberworm/CSS/Value/Size.php" role="php" />
+   <file baseinstalldir="/" md5sum="69b24de5d4c3a8d013ca490f6d33b1ec" name="lib/Sabberworm/CSS/Value/String.php" role="php" />
+   <file baseinstalldir="/" md5sum="2fc3555bca78e2f3c43e48c91160fc89" name="lib/Sabberworm/CSS/Value/URL.php" role="php" />
+   <file baseinstalldir="/" md5sum="32c5f53bda4a92d58583e2e00d5578bf" name="lib/Sabberworm/CSS/Value/Value.php" role="php" />
+   <file baseinstalldir="/" md5sum="86dc04d96f90cd1a9736b783619bfcc6" name="lib/Sabberworm/CSS/Value/ValueList.php" role="php" />
+   <file baseinstalldir="/" md5sum="2fc6cf1447a05227bd22f8293e679cf9" name="lib/Sabberworm/CSS/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="01d3b556a305f77647ac2572354f89f9" name="lib/Sabberworm/CSS/Settings.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.7.0</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <extension>
+    <name>mbstring</name>
+   </extension>
+  </optional>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="COPYING" name="doc/Horde/Css/Parser/COPYING" />
+   <install as="EXPAT_LICENSE" name="doc/Horde/Css/Parser/EXPAT_LICENSE" />
+   <install as="Horde/Css/Parser.php" name="lib/Horde/Css/Parser.php" />
+   <install as="Sabberworm/CSS/Parser.php" name="lib/Sabberworm/CSS/Parser.php" />
+   <install as="Sabberworm/CSS/Settings.php" name="lib/Sabberworm/CSS/Settings.php" />
+   <install as="Sabberworm/CSS/CSSList/AtRuleBlockList.php" name="lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" />
+   <install as="Sabberworm/CSS/CSSList/CSSBlockList.php" name="lib/Sabberworm/CSS/CSSList/CSSBlockList.php" />
+   <install as="Sabberworm/CSS/CSSList/CSSList.php" name="lib/Sabberworm/CSS/CSSList/CSSList.php" />
+   <install as="Sabberworm/CSS/CSSList/Document.php" name="lib/Sabberworm/CSS/CSSList/Document.php" />
+   <install as="Sabberworm/CSS/CSSList/KeyFrame.php" name="lib/Sabberworm/CSS/CSSList/KeyFrame.php" />
+   <install as="Sabberworm/CSS/CSSList/MediaQuery.php" name="lib/Sabberworm/CSS/CSSList/MediaQuery.php" />
+   <install as="Sabberworm/CSS/Parsing/UnexpectedTokenException.php" name="lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" />
+   <install as="Sabberworm/CSS/Property/AtRule.php" name="lib/Sabberworm/CSS/Property/AtRule.php" />
+   <install as="Sabberworm/CSS/Property/Charset.php" name="lib/Sabberworm/CSS/Property/Charset.php" />
+   <install as="Sabberworm/CSS/Property/CSSNamespace.php" name="lib/Sabberworm/CSS/Property/CSSNamespace.php" />
+   <install as="Sabberworm/CSS/Property/Import.php" name="lib/Sabberworm/CSS/Property/Import.php" />
+   <install as="Sabberworm/CSS/Property/Selector.php" name="lib/Sabberworm/CSS/Property/Selector.php" />
+   <install as="Sabberworm/CSS/Rule/Rule.php" name="lib/Sabberworm/CSS/Rule/Rule.php" />
+   <install as="Sabberworm/CSS/RuleSet/AtRuleSet.php" name="lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" />
+   <install as="Sabberworm/CSS/RuleSet/DeclarationBlock.php" name="lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" />
+   <install as="Sabberworm/CSS/RuleSet/RuleSet.php" name="lib/Sabberworm/CSS/RuleSet/RuleSet.php" />
+   <install as="Sabberworm/CSS/Value/Color.php" name="lib/Sabberworm/CSS/Value/Color.php" />
+   <install as="Sabberworm/CSS/Value/CSSFunction.php" name="lib/Sabberworm/CSS/Value/CSSFunction.php" />
+   <install as="Sabberworm/CSS/Value/PrimitiveValue.php" name="lib/Sabberworm/CSS/Value/PrimitiveValue.php" />
+   <install as="Sabberworm/CSS/Value/RuleValueList.php" name="lib/Sabberworm/CSS/Value/RuleValueList.php" />
+   <install as="Sabberworm/CSS/Value/Size.php" name="lib/Sabberworm/CSS/Value/Size.php" />
+   <install as="Sabberworm/CSS/Value/String.php" name="lib/Sabberworm/CSS/Value/String.php" />
+   <install as="Sabberworm/CSS/Value/URL.php" name="lib/Sabberworm/CSS/Value/URL.php" />
+   <install as="Sabberworm/CSS/Value/Value.php" name="lib/Sabberworm/CSS/Value/Value.php" />
+   <install as="Sabberworm/CSS/Value/ValueList.php" name="lib/Sabberworm/CSS/Value/ValueList.php" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-03-19</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* First release for Horde 5.
+   </notes>
+  </release>
+ </changelog>
+</package>
