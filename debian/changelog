@@ -1,6 +1,6 @@
-php-horde-css-parser (1.0.0~dev201304071754-1) UNRELEASED; urgency=low
+php-horde-css-parser (1.0.0~dev201304071754-1) unstable; urgency=low
 
   * Horde's Horde_Css_Parser package
   * Initial packaging (Closes: #704857)
 
- -- Mathieu Parent <sathieu@debian.org>  Sun, 07 Apr 2013 17:54:25 +0200
+ -- Mathieu Parent <sathieu@debian.org>  Sun, 07 Apr 2013 18:04:26 +0200
