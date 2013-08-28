@@ -1,3 +1,9 @@
+php-horde-css-parser (1.0.1-1) UNRELEASED; urgency=low
+
+  * New upstream version 1.0.1
+
+ -- Mathieu Parent <sathieu@debian.org>  Wed, 28 Aug 2013 07:24:48 +0200
+
 php-horde-css-parser (1.0.0-2) unstable; urgency=low
 
   * Use pristine-tar
