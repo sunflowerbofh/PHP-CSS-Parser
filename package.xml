@@ -10,10 +10,10 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2013-04-08</date>
- <time>18:04:08</time>
+ <date>2013-08-22</date>
+ <time>10:50:14</time>
  <version>
-  <release>1.0.0</release>
+  <release>1.0.1</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -22,7 +22,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* First release for Horde 5.
+* [jan] Fix certain sizes reduced by factor ten (Bug #12462).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -49,12 +49,12 @@
    <file baseinstalldir="/" md5sum="b54074857c15e36f59340ef142b8d601" name="lib/Sabberworm/CSS/Value/CSSFunction.php" role="php" />
    <file baseinstalldir="/" md5sum="260203672eb68d976e22ec50d5dfa388" name="lib/Sabberworm/CSS/Value/PrimitiveValue.php" role="php" />
    <file baseinstalldir="/" md5sum="f83c603cb1cac8c970ab43b46efc1a33" name="lib/Sabberworm/CSS/Value/RuleValueList.php" role="php" />
-   <file baseinstalldir="/" md5sum="d59a99595a29e25422868a46876b7e33" name="lib/Sabberworm/CSS/Value/Size.php" role="php" />
+   <file baseinstalldir="/" md5sum="bd308c3dde2f3de5c3c37c00e2eae0f8" name="lib/Sabberworm/CSS/Value/Size.php" role="php" />
    <file baseinstalldir="/" md5sum="69b24de5d4c3a8d013ca490f6d33b1ec" name="lib/Sabberworm/CSS/Value/String.php" role="php" />
    <file baseinstalldir="/" md5sum="2fc3555bca78e2f3c43e48c91160fc89" name="lib/Sabberworm/CSS/Value/URL.php" role="php" />
    <file baseinstalldir="/" md5sum="32c5f53bda4a92d58583e2e00d5578bf" name="lib/Sabberworm/CSS/Value/Value.php" role="php" />
    <file baseinstalldir="/" md5sum="86dc04d96f90cd1a9736b783619bfcc6" name="lib/Sabberworm/CSS/Value/ValueList.php" role="php" />
-   <file baseinstalldir="/" md5sum="2fc6cf1447a05227bd22f8293e679cf9" name="lib/Sabberworm/CSS/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="2a9e50d7cf11f8c9031d698e71bc9640" name="lib/Sabberworm/CSS/Parser.php" role="php" />
    <file baseinstalldir="/" md5sum="01d3b556a305f77647ac2572354f89f9" name="lib/Sabberworm/CSS/Settings.php" role="php" />
   </dir>
  </contents>
@@ -121,6 +121,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * First release for Horde 5.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.1</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-08-22</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Fix certain sizes reduced by factor ten (Bug #12462).
    </notes>
   </release>
  </changelog>
