@@ -10,10 +10,10 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2013-08-22</date>
- <time>10:50:14</time>
+ <date>2013-10-15</date>
+ <time>12:14:09</time>
  <version>
-  <release>1.0.1</release>
+  <release>1.0.2</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -22,7 +22,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Fix certain sizes reduced by factor ten (Bug #12462).
+* [mms] Performance optimizations in the parser.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -54,7 +54,7 @@
    <file baseinstalldir="/" md5sum="2fc3555bca78e2f3c43e48c91160fc89" name="lib/Sabberworm/CSS/Value/URL.php" role="php" />
    <file baseinstalldir="/" md5sum="32c5f53bda4a92d58583e2e00d5578bf" name="lib/Sabberworm/CSS/Value/Value.php" role="php" />
    <file baseinstalldir="/" md5sum="86dc04d96f90cd1a9736b783619bfcc6" name="lib/Sabberworm/CSS/Value/ValueList.php" role="php" />
-   <file baseinstalldir="/" md5sum="2a9e50d7cf11f8c9031d698e71bc9640" name="lib/Sabberworm/CSS/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="127e8fa7ca8b56b7cdf37bc509845e08" name="lib/Sabberworm/CSS/Parser.php" role="php" />
    <file baseinstalldir="/" md5sum="01d3b556a305f77647ac2572354f89f9" name="lib/Sabberworm/CSS/Settings.php" role="php" />
   </dir>
  </contents>
@@ -136,6 +136,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Fix certain sizes reduced by factor ten (Bug #12462).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.2</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-10-15</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [mms] Performance optimizations in the parser.
    </notes>
   </release>
  </changelog>
