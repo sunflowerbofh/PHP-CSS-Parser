@@ -1,0 +1,2 @@
+#!/bin/sh
+php Horde_Css_Parser-1.0.4/test/Horde/Css/Parser/AllTests.php
