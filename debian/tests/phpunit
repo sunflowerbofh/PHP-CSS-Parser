@@ -1,2 +1,7 @@
 #!/bin/sh
-php Horde_Css_Parser-1.0.4/test/Horde/Css/Parser/AllTests.php
+
+set -x
+set -e
+
+cd Horde_Css_Parser*/test/./Horde/Css/Parser
+phpunit -v .
