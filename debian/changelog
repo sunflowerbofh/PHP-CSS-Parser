@@ -1,8 +1,8 @@
-php-horde-css-parser (1.0.4-4) UNRELEASED; urgency=medium
+php-horde-css-parser (1.0.4-4) unstable; urgency=medium
 
   * Fixed DEP-8 tests
 
- -- Mathieu Parent <sathieu@debian.org>  Sat, 13 Sep 2014 09:08:43 +0200
+ -- Mathieu Parent <sathieu@debian.org>  Sat, 13 Sep 2014 10:11:01 +0200
 
 php-horde-css-parser (1.0.4-3) unstable; urgency=medium
 
