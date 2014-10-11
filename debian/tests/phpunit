@@ -1,6 +1,5 @@
 #!/bin/sh
 
-set -x
 set -e
 
 cd Horde_Css_Parser*/test/./Horde/Css/Parser
