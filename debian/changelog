@@ -1,3 +1,9 @@
+php-horde-css-parser (1.0.8-1) UNRELEASED; urgency=medium
+
+  * New upstream version 1.0.8
+
+ -- Mathieu Parent <sathieu@debian.org>  Tue, 02 Feb 2016 21:45:10 +0100
+
 php-horde-css-parser (1.0.7-2) unstable; urgency=medium
 
   * Upgaded to debhelper compat 9
