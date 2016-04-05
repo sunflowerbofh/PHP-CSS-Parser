@@ -10,10 +10,10 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-02-01</date>
- <time>16:30:03</time>
+ <date>2016-04-05</date>
+ <time>10:44:20</time>
  <version>
-  <release>1.0.8</release>
+  <release>1.0.9</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -22,23 +22,24 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Mark PHP 7 as supported.
+* [jan] Update to PHP-CSS-Parser 7.0.2 (Request #14297).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="8645d3a4e3ad87e7cf4d88a46717aab4" name="bundle/vendor/composer/autoload_classmap.php" role="php" />
    <file baseinstalldir="/" md5sum="b960ffc4d572349cff9bfb85f9d4e590" name="bundle/vendor/composer/autoload_namespaces.php" role="php" />
    <file baseinstalldir="/" md5sum="dd3a00f0d13eb29781edd8c77d4c5100" name="bundle/vendor/composer/autoload_psr4.php" role="php" />
-   <file baseinstalldir="/" md5sum="9b3ef0fac98bf2ca9c2a89f70724db37" name="bundle/vendor/composer/autoload_real.php" role="php" />
-   <file baseinstalldir="/" md5sum="e175c690e77f96bae784c1a5f178ea7b" name="bundle/vendor/composer/ClassLoader.php" role="php" />
-   <file baseinstalldir="/" md5sum="cd3ac43016c86b5a64dd424247159471" name="bundle/vendor/composer/installed.json" role="php" />
+   <file baseinstalldir="/" md5sum="3fef2d5f0da8b960b8346e55959e824a" name="bundle/vendor/composer/autoload_real.php" role="php" />
+   <file baseinstalldir="/" md5sum="c67ebce5ff31e99311ceb750202adf2e" name="bundle/vendor/composer/ClassLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="50b775ba1e203b815df448995b1ce56b" name="bundle/vendor/composer/installed.json" role="php" />
+   <file baseinstalldir="/" md5sum="77c15f9eb9855bc99abf17f83653d10a" name="bundle/vendor/composer/LICENSE" role="php" />
    <file baseinstalldir="/" md5sum="a5d54190c53f0d8fe5c8873ff72bd334" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" role="php" />
-   <file baseinstalldir="/" md5sum="58274cfa651d694a9736b5b1d3803516" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" role="php" />
+   <file baseinstalldir="/" md5sum="a787d1c68b3adeafbf8754275be757c6" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" role="php" />
    <file baseinstalldir="/" md5sum="5190fc446da78d4303fd0e196acb54a1" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php" role="php" />
    <file baseinstalldir="/" md5sum="a3ccf959e455c6664f486fe88c712bab" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php" role="php" />
    <file baseinstalldir="/" md5sum="c308c5aa5d6ca69286797e245a5dbcd9" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php" role="php" />
    <file baseinstalldir="/" md5sum="8217be648c6ac2679bff808d3f368703" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php" role="php" />
-   <file baseinstalldir="/" md5sum="3939fd116c2c55afca9608111024f625" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" role="php" />
+   <file baseinstalldir="/" md5sum="52ff14e091ebe6f3814e921d62dfbd5a" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" role="php" />
    <file baseinstalldir="/" md5sum="30b2c9595a1b8663a3d5ef5579c39227" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php" role="php" />
    <file baseinstalldir="/" md5sum="2751f7b511769be29996bdd57304ec3b" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php" role="php" />
    <file baseinstalldir="/" md5sum="a37cb307e52b3e5a0af7577060860841" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php" role="php" />
@@ -50,15 +51,15 @@
    <file baseinstalldir="/" md5sum="0e6ffb8b30187637f49e4dda5474cb8f" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" role="php" />
    <file baseinstalldir="/" md5sum="c0ec1d057054d4444f91c272d997e924" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" role="php" />
    <file baseinstalldir="/" md5sum="1ca397f1ad671705970bb98a746b5402" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" role="php" />
+   <file baseinstalldir="/" md5sum="1b39febeaac299e5651f00f72d9bb862" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" role="php" />
    <file baseinstalldir="/" md5sum="bf43c7652f0730c78f2a7984d0b7a0c5" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" role="php" />
    <file baseinstalldir="/" md5sum="fae68aa6411225d5f65d0fc829f51e92" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" role="php" />
    <file baseinstalldir="/" md5sum="4c784ef99b978328af6a960ac53ea0df" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" role="php" />
-   <file baseinstalldir="/" md5sum="1256747700e7bc4c4637ccb7fad55a62" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/String.php" role="php" />
-   <file baseinstalldir="/" md5sum="818a40ab68712606cbebb03d8477126e" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" role="php" />
+   <file baseinstalldir="/" md5sum="080c4d2158ee62889b3cb4fc326860c3" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" role="php" />
    <file baseinstalldir="/" md5sum="72643afd1a46a41b9f63959d13d5dcb2" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" role="php" />
    <file baseinstalldir="/" md5sum="004cf2bfcb963ae5bc518f497dd001e1" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" role="php" />
    <file baseinstalldir="/" md5sum="45827a4d56346f84b1aa2a0ac6a328c1" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" role="php" />
-   <file baseinstalldir="/" md5sum="639fac6019f0f98989479932a5fdb678" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="c08a16db90fe4ef0b3c97794606bea91" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php" role="php" />
    <file baseinstalldir="/" md5sum="1a060053383b451868e0bef4a3af795f" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Renderable.php" role="php" />
    <file baseinstalldir="/" md5sum="f7cd2b0dceca8200695f53c1ce5904b4" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Settings.php" role="php" />
    <file baseinstalldir="/" md5sum="3cba73e9175cf38aa329a607004c0464" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css" role="php" />
@@ -75,7 +76,7 @@
    <file baseinstalldir="/" md5sum="b6d9d2b3fabfa1bf79c4a3dade5c03fe" name="bundle/vendor/sabberworm/php-css-parser/tests/files/docuwiki.css" role="php" />
    <file baseinstalldir="/" md5sum="423d2c45bf596f643572028b8e9c74cb" name="bundle/vendor/sabberworm/php-css-parser/tests/files/expand-shorthands.css" role="php" />
    <file baseinstalldir="/" md5sum="8f07bbb45e25c86430dbf89a4e778e18" name="bundle/vendor/sabberworm/php-css-parser/tests/files/functions.css" role="php" />
-   <file baseinstalldir="/" md5sum="eaf3c1f3e8988356583ffd1ffbd7590a" name="bundle/vendor/sabberworm/php-css-parser/tests/files/ie.css" role="php" />
+   <file baseinstalldir="/" md5sum="37ea74a243f7ed4d5d137c6cb6819fb5" name="bundle/vendor/sabberworm/php-css-parser/tests/files/ie.css" role="php" />
    <file baseinstalldir="/" md5sum="671425c22a0f68eddef81bc39cb65346" name="bundle/vendor/sabberworm/php-css-parser/tests/files/important.css" role="php" />
    <file baseinstalldir="/" md5sum="e448364e586e46f9dc1910da8257eabc" name="bundle/vendor/sabberworm/php-css-parser/tests/files/inner-color.css" role="php" />
    <file baseinstalldir="/" md5sum="4749d23cf7f45483e3d1d66865e1a8e9" name="bundle/vendor/sabberworm/php-css-parser/tests/files/namespaces.css" role="php" />
@@ -93,11 +94,11 @@
    <file baseinstalldir="/" md5sum="395f95c6635f60158405f6ad4236507b" name="bundle/vendor/sabberworm/php-css-parser/tests/bootstrap.php" role="php" />
    <file baseinstalldir="/" md5sum="090ce475b8a9773a240e954334988c75" name="bundle/vendor/sabberworm/php-css-parser/tests/phpunit.xml" role="php" />
    <file baseinstalldir="/" md5sum="77bb72075031457b41d5671ff96a1f1c" name="bundle/vendor/sabberworm/php-css-parser/tests/quickdump.php" role="php" />
-   <file baseinstalldir="/" md5sum="4571582bad45d81c1c0bb6ab99248218" name="bundle/vendor/sabberworm/php-css-parser/.travis.yml" role="php" />
-   <file baseinstalldir="/" md5sum="06b4c253752e77c1d57c2cb5035b9bb6" name="bundle/vendor/sabberworm/php-css-parser/CHANGELOG.md" role="php" />
-   <file baseinstalldir="/" md5sum="920553edb19c50d112ed23039baad98e" name="bundle/vendor/sabberworm/php-css-parser/Doxyfile" role="php" />
+   <file baseinstalldir="/" md5sum="8a903c5f27ad7e1a369e9157c9bb1a72" name="bundle/vendor/sabberworm/php-css-parser/.travis.yml" role="php" />
+   <file baseinstalldir="/" md5sum="de106516f48f5fa9f92154ffddd72ac6" name="bundle/vendor/sabberworm/php-css-parser/CHANGELOG.md" role="php" />
+   <file baseinstalldir="/" md5sum="a48dd22a9267856ea5a440a5e4949636" name="bundle/vendor/sabberworm/php-css-parser/Doxyfile" role="php" />
    <file baseinstalldir="/" md5sum="ab54d227149b6a5fa68e7394dab683ab" name="bundle/vendor/sabberworm/php-css-parser/phpunit.xml" role="php" />
-   <file baseinstalldir="/" md5sum="4e4b9accbf3714211a8bd5da8e9a1997" name="bundle/vendor/sabberworm/php-css-parser/README.md" role="php" />
+   <file baseinstalldir="/" md5sum="ab7448deb15bbabbfdd94e6326f38c26" name="bundle/vendor/sabberworm/php-css-parser/README.md" role="php" />
    <file baseinstalldir="/" md5sum="c3c335bbd7b5fd5fa5f13da85fba9e0f" name="bundle/vendor/autoload.php" role="php" />
    <file baseinstalldir="/" md5sum="448263295cf592643828bb7121113a01" name="doc/Horde/Css/Parser/COPYING" role="doc" />
    <file baseinstalldir="/" md5sum="9cd31744486effc8639245b3b83f283a" name="doc/Horde/Css/Parser/EXPAT_LICENSE" role="doc" />
@@ -111,7 +112,7 @@
  <dependencies>
   <required>
    <php>
-    <min>5.3.0</min>
+    <min>5.3.2</min>
     <max>8.0.0alpha1</max>
     <exclude>8.0.0alpha1</exclude>
    </php>
@@ -134,6 +135,7 @@
    <install as="Horde/Css/Parser/vendor/composer/autoload_real.php" name="bundle/vendor/composer/autoload_real.php" />
    <install as="Horde/Css/Parser/vendor/composer/ClassLoader.php" name="bundle/vendor/composer/ClassLoader.php" />
    <install as="Horde/Css/Parser/vendor/composer/installed.json" name="bundle/vendor/composer/installed.json" />
+   <install as="Horde/Css/Parser/vendor/composer/LICENSE" name="bundle/vendor/composer/LICENSE" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/.travis.yml" name="bundle/vendor/sabberworm/php-css-parser/.travis.yml" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/CHANGELOG.md" name="bundle/vendor/sabberworm/php-css-parser/CHANGELOG.md" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/Doxyfile" name="bundle/vendor/sabberworm/php-css-parser/Doxyfile" />
@@ -161,10 +163,10 @@
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" />
+   <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" />
-   <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/String.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/String.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" />
@@ -344,6 +346,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Mark PHP 7 as supported.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.9</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-04-05</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Update to PHP-CSS-Parser 7.0.2 (Request #14297).
    </notes>
   </release>
  </changelog>
