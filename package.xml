@@ -10,10 +10,10 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-04-05</date>
- <time>10:44:20</time>
+ <date>2016-04-14</date>
+ <time>15:13:10</time>
  <version>
-  <release>1.0.9</release>
+  <release>1.0.10</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -22,7 +22,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Update to PHP-CSS-Parser 7.0.2 (Request #14297).
+* [jan] Fix upstream regression causing infite loops with empty CSS documents (Bug #14318).
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -102,10 +102,10 @@
    <file baseinstalldir="/" md5sum="c3c335bbd7b5fd5fa5f13da85fba9e0f" name="bundle/vendor/autoload.php" role="php" />
    <file baseinstalldir="/" md5sum="448263295cf592643828bb7121113a01" name="doc/Horde/Css/Parser/COPYING" role="doc" />
    <file baseinstalldir="/" md5sum="9cd31744486effc8639245b3b83f283a" name="doc/Horde/Css/Parser/EXPAT_LICENSE" role="doc" />
-   <file baseinstalldir="/" md5sum="eb46c0d375f31d249d4783628293b2d8" name="lib/Horde/Css/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="f381a041c8e7b589cac4a7e8d152a40f" name="lib/Horde/Css/Parser.php" role="php" />
    <file baseinstalldir="/" md5sum="8bc9518b9c0576806c82d9413489d099" name="test/Horde/Css/Parser/AllTests.php" role="test" />
    <file baseinstalldir="/" md5sum="0a5018f0726d4673850fece3ad4d72c0" name="test/Horde/Css/Parser/bootstrap.php" role="test" />
-   <file baseinstalldir="/" md5sum="b05da69e5657d025bd36f24389fd456d" name="test/Horde/Css/Parser/ParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2d004d17795bd50ebff5b4c3a6e82086" name="test/Horde/Css/Parser/ParserTest.php" role="test" />
    <file baseinstalldir="/" md5sum="090ce475b8a9773a240e954334988c75" name="test/Horde/Css/Parser/phpunit.xml" role="test" />
   </dir>
  </contents>
@@ -361,6 +361,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Update to PHP-CSS-Parser 7.0.2 (Request #14297).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.10</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-04-14</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Fix upstream regression causing infite loops with empty CSS documents (Bug #14318).
    </notes>
   </release>
  </changelog>
