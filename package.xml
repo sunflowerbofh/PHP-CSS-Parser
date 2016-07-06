@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
  <name>Horde_Css_Parser</name>
  <channel>pear.horde.org</channel>
  <summary>Horde CSS Parser</summary>
@@ -10,10 +10,10 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-04-14</date>
- <time>15:13:10</time>
+ <date>2016-07-02</date>
+ <time>11:01:18</time>
  <version>
-  <release>1.0.10</release>
+  <release>1.0.11</release>
   <api>1.0.0</api>
  </version>
  <stability>
@@ -22,16 +22,17 @@
  </stability>
  <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
  <notes>
-* [jan] Fix upstream regression causing infite loops with empty CSS documents (Bug #14318).
+* [jan] Update to PHP-CSS-Parser 7.0.3.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
    <file baseinstalldir="/" md5sum="8645d3a4e3ad87e7cf4d88a46717aab4" name="bundle/vendor/composer/autoload_classmap.php" role="php" />
    <file baseinstalldir="/" md5sum="b960ffc4d572349cff9bfb85f9d4e590" name="bundle/vendor/composer/autoload_namespaces.php" role="php" />
    <file baseinstalldir="/" md5sum="dd3a00f0d13eb29781edd8c77d4c5100" name="bundle/vendor/composer/autoload_psr4.php" role="php" />
-   <file baseinstalldir="/" md5sum="3fef2d5f0da8b960b8346e55959e824a" name="bundle/vendor/composer/autoload_real.php" role="php" />
+   <file baseinstalldir="/" md5sum="e545617929dca0df3f968fc5c99aefcf" name="bundle/vendor/composer/autoload_real.php" role="php" />
+   <file baseinstalldir="/" md5sum="59cf140f62b72b4884183296909b4e73" name="bundle/vendor/composer/autoload_static.php" role="php" />
    <file baseinstalldir="/" md5sum="c67ebce5ff31e99311ceb750202adf2e" name="bundle/vendor/composer/ClassLoader.php" role="php" />
-   <file baseinstalldir="/" md5sum="50b775ba1e203b815df448995b1ce56b" name="bundle/vendor/composer/installed.json" role="php" />
+   <file baseinstalldir="/" md5sum="f82bd8834f88c34d061a1e91fd032071" name="bundle/vendor/composer/installed.json" role="php" />
    <file baseinstalldir="/" md5sum="77c15f9eb9855bc99abf17f83653d10a" name="bundle/vendor/composer/LICENSE" role="php" />
    <file baseinstalldir="/" md5sum="a5d54190c53f0d8fe5c8873ff72bd334" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" role="php" />
    <file baseinstalldir="/" md5sum="a787d1c68b3adeafbf8754275be757c6" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" role="php" />
@@ -59,13 +60,14 @@
    <file baseinstalldir="/" md5sum="72643afd1a46a41b9f63959d13d5dcb2" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" role="php" />
    <file baseinstalldir="/" md5sum="004cf2bfcb963ae5bc518f497dd001e1" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" role="php" />
    <file baseinstalldir="/" md5sum="45827a4d56346f84b1aa2a0ac6a328c1" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" role="php" />
-   <file baseinstalldir="/" md5sum="c08a16db90fe4ef0b3c97794606bea91" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php" role="php" />
+   <file baseinstalldir="/" md5sum="565ef70d576010fedf5352e9a98957a9" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php" role="php" />
    <file baseinstalldir="/" md5sum="1a060053383b451868e0bef4a3af795f" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Renderable.php" role="php" />
    <file baseinstalldir="/" md5sum="f7cd2b0dceca8200695f53c1ce5904b4" name="bundle/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Settings.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-empty.css" role="php" />
    <file baseinstalldir="/" md5sum="3cba73e9175cf38aa329a607004c0464" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css" role="php" />
    <file baseinstalldir="/" md5sum="fa6985b50ff6aba4d082f59a1623daba" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-end-token.css" role="php" />
    <file baseinstalldir="/" md5sum="16a430ac1363e3a4b8d225bda4a5b4f4" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-fault-tolerance.css" role="php" />
-   <file baseinstalldir="/" md5sum="41415b07acd4770254e42bc6f9063992" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-tobedone.css" role="php" />
+   <file baseinstalldir="/" md5sum="70ccb8bef9c28b53b91c02ba9981fdd6" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-tobedone.css" role="php" />
    <file baseinstalldir="/" md5sum="ebca58d0b59cc55e1912f336c47dd653" name="bundle/vendor/sabberworm/php-css-parser/tests/files/1readme.css" role="php" />
    <file baseinstalldir="/" md5sum="21ab9bcdcf079e55c1abc09645192ce0" name="bundle/vendor/sabberworm/php-css-parser/tests/files/2readme.css" role="php" />
    <file baseinstalldir="/" md5sum="375604d6b672834281046a27dff3ae73" name="bundle/vendor/sabberworm/php-css-parser/tests/files/atrules.css" role="php" />
@@ -90,15 +92,15 @@
    <file baseinstalldir="/" md5sum="1072f0d1b48f6fe64da4640b4df0ae71" name="bundle/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php" role="php" />
    <file baseinstalldir="/" md5sum="22cee52a138a5a60c3d0ba1512f3efc4" name="bundle/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php" role="php" />
    <file baseinstalldir="/" md5sum="94d705406f390a8932d32dd3dbd7b221" name="bundle/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php" role="php" />
-   <file baseinstalldir="/" md5sum="57e78787d28d7dfec9a1091e0c334ac0" name="bundle/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ff5a7fe2ff5a4b3c425b3c6a5f7358c9" name="bundle/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" role="php" />
    <file baseinstalldir="/" md5sum="395f95c6635f60158405f6ad4236507b" name="bundle/vendor/sabberworm/php-css-parser/tests/bootstrap.php" role="php" />
    <file baseinstalldir="/" md5sum="090ce475b8a9773a240e954334988c75" name="bundle/vendor/sabberworm/php-css-parser/tests/phpunit.xml" role="php" />
    <file baseinstalldir="/" md5sum="77bb72075031457b41d5671ff96a1f1c" name="bundle/vendor/sabberworm/php-css-parser/tests/quickdump.php" role="php" />
    <file baseinstalldir="/" md5sum="8a903c5f27ad7e1a369e9157c9bb1a72" name="bundle/vendor/sabberworm/php-css-parser/.travis.yml" role="php" />
-   <file baseinstalldir="/" md5sum="de106516f48f5fa9f92154ffddd72ac6" name="bundle/vendor/sabberworm/php-css-parser/CHANGELOG.md" role="php" />
+   <file baseinstalldir="/" md5sum="4455863627335b3767f544cb128f19be" name="bundle/vendor/sabberworm/php-css-parser/CHANGELOG.md" role="php" />
    <file baseinstalldir="/" md5sum="a48dd22a9267856ea5a440a5e4949636" name="bundle/vendor/sabberworm/php-css-parser/Doxyfile" role="php" />
    <file baseinstalldir="/" md5sum="ab54d227149b6a5fa68e7394dab683ab" name="bundle/vendor/sabberworm/php-css-parser/phpunit.xml" role="php" />
-   <file baseinstalldir="/" md5sum="ab7448deb15bbabbfdd94e6326f38c26" name="bundle/vendor/sabberworm/php-css-parser/README.md" role="php" />
+   <file baseinstalldir="/" md5sum="4e37cbe9f8faef79d34f99dfc2b4e1cd" name="bundle/vendor/sabberworm/php-css-parser/README.md" role="php" />
    <file baseinstalldir="/" md5sum="c3c335bbd7b5fd5fa5f13da85fba9e0f" name="bundle/vendor/autoload.php" role="php" />
    <file baseinstalldir="/" md5sum="448263295cf592643828bb7121113a01" name="doc/Horde/Css/Parser/COPYING" role="doc" />
    <file baseinstalldir="/" md5sum="9cd31744486effc8639245b3b83f283a" name="doc/Horde/Css/Parser/EXPAT_LICENSE" role="doc" />
@@ -133,6 +135,7 @@
    <install as="Horde/Css/Parser/vendor/composer/autoload_namespaces.php" name="bundle/vendor/composer/autoload_namespaces.php" />
    <install as="Horde/Css/Parser/vendor/composer/autoload_psr4.php" name="bundle/vendor/composer/autoload_psr4.php" />
    <install as="Horde/Css/Parser/vendor/composer/autoload_real.php" name="bundle/vendor/composer/autoload_real.php" />
+   <install as="Horde/Css/Parser/vendor/composer/autoload_static.php" name="bundle/vendor/composer/autoload_static.php" />
    <install as="Horde/Css/Parser/vendor/composer/ClassLoader.php" name="bundle/vendor/composer/ClassLoader.php" />
    <install as="Horde/Css/Parser/vendor/composer/installed.json" name="bundle/vendor/composer/installed.json" />
    <install as="Horde/Css/Parser/vendor/composer/LICENSE" name="bundle/vendor/composer/LICENSE" />
@@ -173,6 +176,7 @@
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/bootstrap.php" name="bundle/vendor/sabberworm/php-css-parser/tests/bootstrap.php" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/phpunit.xml" name="bundle/vendor/sabberworm/php-css-parser/tests/phpunit.xml" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/quickdump.php" name="bundle/vendor/sabberworm/php-css-parser/tests/quickdump.php" />
+   <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/files/-empty.css" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-empty.css" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/files/-end-token.css" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-end-token.css" />
    <install as="Horde/Css/Parser/vendor/sabberworm/php-css-parser/tests/files/-fault-tolerance.css" name="bundle/vendor/sabberworm/php-css-parser/tests/files/-fault-tolerance.css" />
@@ -376,6 +380,21 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Fix upstream regression causing infite loops with empty CSS documents (Bug #14318).
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.11</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-07-02</date>
+   <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
+   <notes>
+* [jan] Update to PHP-CSS-Parser 7.0.3.
    </notes>
   </release>
  </changelog>
