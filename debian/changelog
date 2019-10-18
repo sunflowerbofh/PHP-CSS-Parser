@@ -2,6 +2,7 @@ php-horde-css-parser (1.0.11-4) UNRELEASED; urgency=medium
 
   * Bump debhelper from old 11 to 12.
   * salsa-ci.yml: Allow autopkgtest failure
+  * d/control: Orphaning package (See #942282)
 
  -- Mathieu Parent <sathieu@debian.org>  Wed, 04 Sep 2019 21:10:54 +0200
 
