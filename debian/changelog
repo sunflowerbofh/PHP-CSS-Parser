@@ -1,5 +1,7 @@
 php-horde-css-parser (1.0.11-5) UNRELEASED; urgency=medium
 
+  * Re-upload to Debian. (Closes: #959252).
+
   * d/control: Add to Uploaders: Mike Gabriel.
   * d/control: Drop from Uploaders: Debian QA Group.
 
