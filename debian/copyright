@@ -9,7 +9,7 @@ Copyright: 2013-2016, Horde LLC (http://www.horde.org/)
            2014-2016, Horde LLC (http://www.horde.org/)
 License: LGPL-2.1
 
-Files: Horde_Css_Parser/bundle/vendor/composer/*
+Files: Horde_Css_Parser-*/bundle/vendor/composer/*
 Copyright: 2016, Nils Adermann
            2016, Jordi Boggiano
 License: Expat
@@ -18,7 +18,7 @@ Comment:
  .
  License and copyright information taken from LICENSE file.
 
-Files: Horde_Css_Parser/bundle/vendor/sabberworm/*
+Files: Horde_Css_Parser-*/bundle/vendor/sabberworm/*
 Copyright: 2011, Raphael Schweikert (http://sabberworm.com)
 License: Expat
 Comment:
