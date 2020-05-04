@@ -8,3 +8,6 @@ override_dh_auto_install:
 	dh_auto_install -O--buildsystem=phppear
 	# Remove extra license file
 	rm -f $(DESTDIR)/usr/share/doc/php-horde-css-parser/EXPAT_LICENSE
+	rm -f $(DESTDIR)/usr/share/php/Horde/Css/Parser/vendor/composer/LICENSE
+	rm -f $(DESTDIR)/usr/share/php/Horde/Css/Parser/vendor/sabberworm/php-css-parser/CHANGELOG.md
+	rm -f $(DESTDIR)/usr/share/php/Horde/Css/Parser/vendor/sabberworm/php-css-parser/README.md
