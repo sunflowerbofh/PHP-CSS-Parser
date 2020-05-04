@@ -1,4 +1,4 @@
-php-horde-css-parser (1.0.11-5) UNRELEASED; urgency=medium
+php-horde-css-parser (1.0.11-5) unstable; urgency=medium
 
   * Re-upload to Debian. (Closes: #959252).
 
@@ -9,7 +9,7 @@ php-horde-css-parser (1.0.11-5) UNRELEASED; urgency=medium
   * d/copyright: Update copyright attributions.
   * d/upstream/metadata: Add file. Comply with DEP-12.
 
- -- Mike Gabriel <sunweaver@debian.org>  Mon, 04 May 2020 16:37:47 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 04 May 2020 21:19:39 +0200
 
 php-horde-css-parser (1.0.11-4) unstable; urgency=medium
 
