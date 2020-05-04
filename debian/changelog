@@ -1,6 +1,16 @@
-php-horde-css-parser (1.0.11-5) unstable; urgency=medium
+php-horde-css-parser (1.0.11-6) unstable; urgency=medium
 
   * Re-upload to Debian. (Closes: #959252).
+
+  * d/tests/control: Stop using deprecated needs-recommends restriction.
+  * d/rules: Drop unneeded doc files from /usr/share/php.
+  * d/copyright:
+    + Add myself as copyright holder of debian/* and phase out Mathieu Parent.
+    + Fix upstream code's path name for the bundled code.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 05 May 2020 00:27:53 +0200
+
+php-horde-css-parser (1.0.11-5) UNRELEASED; urgency=medium
 
   * d/control: Add to Uploaders: Mike Gabriel.
   * d/control: Drop from Uploaders: Debian QA Group.
