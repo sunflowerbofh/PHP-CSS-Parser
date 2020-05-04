@@ -26,7 +26,8 @@ Comment:
  from README.md file.
 
 Files: debian/*
-Copyright: 2013 Mathieu Parent <math.parent@gmail.com>
+Copyright: 2013-2019, Mathieu Parent <math.parent@gmail.com>
+           2020, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
 License: LGPL-2.1+ or Expat
 
 License: LGPL-2.1
