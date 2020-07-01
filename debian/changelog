@@ -1,9 +1,13 @@
 php-horde-css-parser (1.0.11-7) UNRELEASED; urgency=medium
 
+  [ Mike Gabriel ]
   * d/control: Add to Uploaders: Juri Grabowski.
   * d/control: Bump DH compat level to version 13.
 
- -- Mike Gabriel <sunweaver@debian.org>  Sat, 06 Jun 2020 00:22:55 +0200
+  [ Juri Grabowski ]
+  * d/salsa-ci.yml: enable aptly
+
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 01 Jul 2020 10:07:18 +0200
 
 php-horde-css-parser (1.0.11-6) unstable; urgency=medium
 
