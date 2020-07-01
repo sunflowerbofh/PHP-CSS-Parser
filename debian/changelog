@@ -1,4 +1,4 @@
-php-horde-css-parser (1.0.11-7) UNRELEASED; urgency=medium
+php-horde-css-parser (1.0.11-7) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * d/control: Add to Uploaders: Juri Grabowski.
@@ -7,7 +7,7 @@ php-horde-css-parser (1.0.11-7) UNRELEASED; urgency=medium
   [ Juri Grabowski ]
   * d/salsa-ci.yml: enable aptly
 
- -- Mike Gabriel <sunweaver@debian.org>  Wed, 01 Jul 2020 10:07:18 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 01 Jul 2020 12:12:10 +0200
 
 php-horde-css-parser (1.0.11-6) unstable; urgency=medium
 
