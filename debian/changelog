@@ -1,3 +1,11 @@
+php-horde-css-parser (1.0.11-8) unstable; urgency=medium
+
+  * d/patches: Add debian/patches/1010_phpunit-8.x+9.x.patch.
+    Fix tests with PHPUnit 8.x/9.x.
+  * d/t/control: Require php-horde-test (>= 2.6.4+debian0-5~).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 21 Jul 2020 21:02:24 +0200
+
 php-horde-css-parser (1.0.11-7) unstable; urgency=medium
 
   [ Mike Gabriel ]
