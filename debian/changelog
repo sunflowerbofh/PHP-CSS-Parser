@@ -1,3 +1,23 @@
+php-horde-css-parser (8.4.0-1) unstable; urgency=medium
+
+  * Adding upstream version 8.4.0.
+  * d/control: Adding phpcomposer placeholders.
+  * d/control: Throwing out (non-existing) build dependency.
+  * d/control: Adding description.
+  * Bumping standards version.
+  * d/control: cosmetics.
+  * d/copyright: Removing unnecessary licenses.
+  * Removing obsolete patch.
+  * Adding install file.
+  * d/rules: Adding phpcomposer conformous rules.
+  * Adding more modern watch file.
+  * Adding lintian-overrides (phpcomposer bug).
+  * Cleaning things.
+  * d/tests/control: cosmetics.
+  * Updating changelog.
+
+ -- Katharina Drexel <katharina.drexel@bfh.ch>  Fri, 26 Aug 2022 15:55:17 +0200
+
 php-horde-css-parser (1.0.11-8) unstable; urgency=medium
 
   * d/patches: Add debian/patches/1010_phpunit-8.x+9.x.patch.
