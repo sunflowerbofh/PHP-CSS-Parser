@@ -1,3 +1,5 @@
-version=3
-opts="uversionmangle=s/(alpha|beta|rc)/~$1/i,dversionmangle=s/\+debian\d$//" \
-https://pear.horde.org/ https://pear.horde.org/get/Horde_Css_Parser-(.+)\.tgz
+version=4
+options=uversionmangle=s/-?([^\d.]+)/~$1/;tr/A-Z/a-z/,\
+mode=git,gitmode=full,gitexport=all,pgpmode=none \
+https://github.com/sabberworm/PHP-CSS-Parser \
+refs/tags/v?(\d.+)
