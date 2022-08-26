@@ -5,18 +5,24 @@ Maintainer: Horde Maintainers <team+debian-horde-team@tracker.debian.org>
 Uploaders:
  Juri Grabowski <debian@jugra.de>,
  Mike Gabriel <sunweaver@debian.org>,
-Build-Depends: pkg-php-tools, debhelper-compat (= 13)
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools,
 Standards-Version: 4.6.1
 Rules-Requires-Root: no
-Homepage: http://www.horde.org/
+Homepage: http://www.horde.org
 Vcs-Git: https://salsa.debian.org/horde-team/php-horde-css-parser.git
 Vcs-Browser: https://salsa.debian.org/horde-team/php-horde-css-parser
 
 Package: php-horde-css-parser
 Architecture: all
-Depends: ${misc:Depends}, ${phpcomposer:Debian-Depends}
-Recommends: ${phpcomposer:Debian-Recommends}
-Breaks: ${phpcomposer:Debian-Breaks}
+Depends:
+ ${misc:Depends},
+ ${phpcomposer:Debian-Depends},
+Recommends:
+ ${phpcomposer:Debian-Recommends},
+Breaks:
+ ${phpcomposer:Debian-Breaks},
 Description: PHP CSS Parser
  A Parser for CSS Files written in PHP. Allows extraction of CSS files into a
  data structure, manipulation of said structure and output as (optimized) CSS.
