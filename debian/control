@@ -17,8 +17,9 @@ Architecture: all
 Depends: ${misc:Depends}, ${phpcomposer:Debian-Depends}
 Recommends: ${phpcomposer:Debian-Recommends}
 Breaks: ${phpcomposer:Debian-Breaks}
-Description: ${phpcomposer:summary}
- ${phpcomposer:description}
+Description: PHP CSS Parser
+ A Parser for CSS Files written in PHP. Allows extraction of CSS files into a
+ data structure, manipulation of said structure and output as (optimized) CSS.
  .
  This package is part of Horde, a web application Framework written in PHP with
  modules like IMP (webmail), Turba (contacts), Kronolith (calendar), Nag (task
