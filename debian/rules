@@ -3,7 +3,12 @@
 DESTDIR=$(CURDIR)/debian/php-horde-css-parser
 
 %:
-	dh $@ --buildsystem=phppear --with phppear
+	dh $@
+
+override_dh_auto_build:
+	phpabtpl --basedir src composer.json > debian/autoload.php.tpl
+	phpab --template debian/autoload.php.tpl --output src/autoload.php src
+
 override_dh_auto_install:
 	dh_auto_install -O--buildsystem=phppear
 	# Remove extra license file
